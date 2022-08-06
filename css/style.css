@@ -1,0 +1,59 @@
+body{
+    background-color: #fff;
+}
+header{
+    margin: 20px auto;
+}
+header h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+main .login{
+    display: flex;
+}
+main .login-form{
+    background-color: #f9f9f9;
+    padding: 130px 65px;
+    width: 50%;
+}
+main .login-form form label{
+    font-family: 'Oswald', sans-serif;
+}
+main .login-img{
+    width: 50%;   
+}
+main form a:nth-of-type(2){
+    text-decoration: none;
+}
+@media only screen and (max-width: 1024px) {
+    main .login{
+     display: flex;
+     margin: 55px auto;
+    }
+    main .login-form{
+    padding: 50px 65px;
+     width: 100%;
+    }
+    main .login-img{
+     width: 100%;   
+    }
+}
+@media only screen and (max-width: 768px) {
+    main .login{
+        display: block;
+    }
+    main .login-form {
+        padding: 50px 15px;
+    }
+}
+footer{
+    color: #808080;
+    text-align: center;
+}
+footer a{
+    color: #808080;
+}
+footer a:hover{
+    color: #2c2c2c;
+    font-weight: bold;
+}
